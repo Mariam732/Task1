@@ -38,8 +38,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             else {
             counter ++;
-            if(counter==3){
+            if(counter==5){
             login.setEnabled(false);
+                Toast.makeText(MainActivity.this, "Invalied", Toast.LENGTH_SHORT).show();
             }
             }
 
